@@ -48,5 +48,6 @@ end
 
 group :production do
 	gem 'pg' #postgress gem for heroku
-	gem 'rails-12factor' #needed for rails v4
+	gem 'rails_12factor' #needed for rails v4
+end
 
