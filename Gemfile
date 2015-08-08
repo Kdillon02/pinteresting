@@ -26,6 +26,8 @@ gem 'devise', '~>3.5.1'
 # Allows use of images in models
 gem 'paperclip', '~> 4.2'
 # bundle exec rake doc:rails generates the API under doc/api.
+# Amazon Web Services SDK, needed for storing images on AWS for production app
+gem 'aws-sdk', '~>2.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
