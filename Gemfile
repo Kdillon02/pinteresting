@@ -17,6 +17,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+# needed for JQuery Masonry
+gem 'jquery-turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # Allows use of bootstrap components
@@ -25,9 +27,11 @@ gem 'bootstrap-sass'
 gem 'devise', '~>3.5.1'
 # Allows use of images in models
 gem 'paperclip', '~> 4.2'
-# bundle exec rake doc:rails generates the API under doc/api.
 # Amazon Web Services SDK, needed for storing images on AWS for production app
 gem 'aws-sdk', '~>2.1'
+# JQuery Masonry for better styling the app
+gem 'masonry-rails', '~> 0.2.4'
+# bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 

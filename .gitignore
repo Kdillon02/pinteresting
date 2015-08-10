@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 .DS_Store
+
+#Ignore database files such as pictures
+/public/system/*
