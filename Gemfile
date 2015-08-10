@@ -28,7 +28,7 @@ gem 'devise', '~>3.5.1'
 # Allows use of images in models
 gem 'paperclip', '~> 4.2'
 # Amazon Web Services SDK, needed for storing images on AWS for production app
-gem 'aws-sdk', '~>2.1'
+gem 'aws-sdk', '<2.0'
 # JQuery Masonry for better styling the app
 gem 'masonry-rails', '~> 0.2.4'
 # bundle exec rake doc:rails generates the API under doc/api.
