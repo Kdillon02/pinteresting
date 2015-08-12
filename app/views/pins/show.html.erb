@@ -10,7 +10,7 @@ redundant -->
 			</div>
 
 			<div class="panel-body">
-				<p><b><%= @pin.user.email if @pin.user %></b></p>
+				<p><b><%= @pin.user.name if @pin.user %></b></p>
 				<p><%= @pin.description %></p>
 				<% if @pin.user == current_user %>
 					<%= link_to edit_pin_path(@pin) do %>
